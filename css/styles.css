@@ -78,6 +78,8 @@ p{
 }
 .nav-list .item{
     margin-right: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .nav-list .item:last-child {
     margin-right: 0;
