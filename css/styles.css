@@ -276,6 +276,7 @@ p{
 .projects-list .item{
     margin-right: 30px;
     margin-bottom: 30px;
+    border-bottom: solid #EEEEEE;
 }
 .projects-list .item:last-child{
     margin-right: 0;
