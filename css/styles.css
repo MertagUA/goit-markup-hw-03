@@ -208,7 +208,7 @@ p{
     line-height: 1.19;
     padding-bottom: 30px;
 }
-.team-member {
+.team-member{
     display: block;
     margin-bottom: 30px;
 }
@@ -249,13 +249,38 @@ p{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.filter-list{
+    display: flex;
+    justify-content: center;
+}
+.filter-list .item{
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.filter-list .item:last-child{
+    margin-right: 0;
 }
 .filter-button:hover,
 .filter-button:focus{
     color: var(--primary-white-color);
     background-color: var(--acent-color);
 }
-
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-list .item{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.projects-list .item:last-child{
+    margin-right: 0;
+    margin-bottom: 0;
+}
 .project-title{
     color: var(--title-text-color);
     font-weight: 700;
