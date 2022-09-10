@@ -280,8 +280,10 @@ p{
     margin-bottom: 30px;
     border-bottom: solid #EEEEEE;
 }
-.projects-list .item:last-child{
+.projects-list .item:nth-child(3n){
     margin-right: 0;
+}
+.projects-list .item:nth-child(n+7){
     margin-bottom: 0;
 }
 .project-title{
